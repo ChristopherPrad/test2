@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Formulaire de contact</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <section class="get-in-touch">
+      <h1 class="title">
+        Si vous pensez à un projet ou que vous avez n'importe quelle question,
+        n'hésitez pas à nous contacter, des professionnels vous répondrons avec
+        importance.
+      </h1>
+      <form class="contact-form row">
+        <div class="form-field col x-50">
+          <input id="name" class="input-text js-input" type="text" required />
+          <label class="label" for="name">Name</label>
+        </div>
+        <div class="form-field col x-50">
+          <input id="email" class="input-text js-input" type="email" required />
+          <label class="label" for="email">E-mail</label>
+        </div>
+        <div class="form-field col x-100">
+          <input
+            id="message"
+            class="input-text js-input"
+            type="text"
+            required
+          />
+          <label class="label" for="message">Message</label>
+        </div>
+        <div class="form-field col x-100 align-center">
+          <input class="submit-btn" type="submit" value="Envoyer" />
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
